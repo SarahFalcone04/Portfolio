@@ -1,0 +1,19 @@
+
+    body {
+      background-color: var(--cor-fundo);
+      color: var(--cor-texto);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      overflow: hidden;
+      font-family: monospace;
+    }
+
+    canvas {
+      border: 2px solid var(--cor-detalhe);
+      background-color: var(--cor-janela);
+      border-radius: 12px;
+      box-shadow: 0 0 15px var(--cor-sombra);
+    }
